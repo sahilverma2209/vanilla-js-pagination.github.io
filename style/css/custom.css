@@ -1,0 +1,247 @@
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown_img{
+  display:inline-block;
+  width:40vw;
+  /* border:1px solid green; */
+  height:30vh;
+  position:relative;
+}
+.dropdown_dynamic_image{
+  position:absolute;
+  height:28vh;
+  left:30%;
+  width:auto;
+}
+.dropdown_links{
+  position:absolute;
+  display:inline-block; 
+  /* border:1px solid red; */
+  right:0%;
+  left:40vw;
+  /* background-color:#ffffff; */
+}
+
+.dropdown-item{
+  padding-top:7px;
+  padding-bottom:7px;
+  padding-left:50px;
+}
+.dropdown-item:hover{
+  padding-top:7px;
+  padding-bottom:7px;
+  padding-left:50px;
+  background-color:#202020;
+  color:#ffffff;
+}
+.directory{
+  padding-left:15px;
+}
+
+.item_directory{
+  padding-left:15px;
+}
+.pagination{
+  /* border:1px solid red; */
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.list_item{
+  height:35vh;
+  margin-top:2vh;
+  position:relative;
+  /* border:1px solid red; */
+}
+
+.prod_box{
+  position:absolute;
+  top:0%;
+  left:3%;
+  right:3%;
+  bottom:0%;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  border-radius: 2%;
+  
+}
+.prod_box:hover{
+  position:absolute;
+  top:-2%;
+  left:1%;
+  right:1%;
+  bottom:-2%;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.22), 0 1px 2px rgba(0,0,0,0.34); 
+  transition: top 0.1s ease-in-out, bottom 0.1s ease-in-out, left 0.1s ease-in-out, right 0.1s ease-in-out;
+}
+.prod_img{
+  position:absolute;
+  top:1%;
+  bottom:17%;
+  left:1%;
+  right:1%;
+  margin-top:0;
+  /* border:1px solid pink; */
+}
+.img_size{
+  height:70%;
+  margin-top:10%;
+  width:auto;
+}
+.prod_desc{
+  /* border:1px solid green; */
+  position:absolute;
+  top:80%;
+  bottom:10%;
+  right:0%;
+  left:0%;
+  font-size:13px;
+  padding-top:5px;
+  text-align:center;
+  
+}
+.prod_id{
+  position:absolute;
+  top:90%;
+  bottom:0%;
+  right:0%;
+  left:0%;
+  font-size:14px;
+  text-align:center;
+}
+.prod_link{
+  text-decoration:none;
+  color:#494949;
+}
+.prod_link:hover{
+  text-decoration:none;
+  color:#494949;
+}
+#prev_section, #next_section{
+  background-color: rgb(32, 32, 32);
+  border: none;
+  color: white;
+  max-height:30px;
+  width:40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5%;
+  line-height:20%;
+}
+
+
+.pb{
+  background-color: rgb(32, 32, 32);
+  border: none;
+  color: white;
+  max-height:30px;
+  width:40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5%;
+}
+.pb:active{
+  background-color: rgb(138, 136, 136);
+  border: none;
+  color: white;
+  max-height:30px;
+  width:40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.selected_button{
+  background-color: rgb(194, 194, 194);
+  border: none;
+  color: rgb(36, 36, 36);
+  max-height:30px;
+  width:40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.ind_item_image{
+  /* border:1px solid red; */
+  height:60vh;
+  position:relative;
+  
+}
+
+.img_box{
+  position:absolute;
+  /* border:0.5px solid rgb(138, 138, 138); */
+  /* box-shadow: 0 1px 3px rgba(0,0,0,0.22), 0 1px 2px rgba(0,0,0,0.34);  */
+  top:10%;
+  bottom:15%;
+  left:20%;
+  right:5%;
+  display:inline-block;
+  vertical-align:middle;
+  text-align:center;
+}
+#item_image_style{
+  /* border:1px solid red; */
+  vertical-align:middle;
+}
+.ind_item_desc{
+  /* border:1px solid green; */
+  height:60vh;
+  position:relative;
+  padding-left:10%;
+}
+
+.item_name{
+  position:absolute;
+  top:20%;
+  width:100%;
+  font-size:25px;
+}
+
+.item_code{
+  position:absolute;
+  top:32%;
+  padding-left:3px;
+}
+
+.item_dimensions{
+  position:absolute;
+  top:39%;
+  padding-left:3px;
+}
+
+
+.footer{
+  /* border: 1px solid red; */
+  height:50vh;
+  left:0%;
+  right:0%;
+  position:absolute;
+  margin-top:10%;
+  background-color:#141414;
+}
+
+.nav_links{
+  color:#cac9c9;
+  margin-left:auto;
+  margin-right:auto;
+  /* border: 1px solid red; */
+  padding-left:20%;
+}
